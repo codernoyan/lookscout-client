@@ -1,8 +1,9 @@
-function App() {
+import Onboarding from 'pages/onboarding/Onboarding';
 
+function App() {
   return (
     <main>
-      <h2 className="text-xl">hello vite</h2>
+      <Onboarding />
     </main>
   );
 }
